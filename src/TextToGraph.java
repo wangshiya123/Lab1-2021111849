@@ -7,6 +7,7 @@ import java.io.PrintWriter; // 导入用于打印格式化的文本输出的类
 import java.util.*;
 //修改添加，下行删除
 //B1分支修改
+//IDE
 public class TextToGraph { // 定义名为 TextToGraph 的类
     private Map<String, Map<String, Integer>> graph = new HashMap<>(); // 创建一个图的邻接表
     private String rootWord = null; // 保存文本中的第一个单词作为根单词
